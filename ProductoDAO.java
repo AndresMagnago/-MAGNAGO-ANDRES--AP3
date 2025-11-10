@@ -16,7 +16,7 @@ public class ProductoDAO {
              ResultSet rs = ps.executeQuery()) {
 
             while (rs.next()) {
-                // Suponemos que en la BD todos los productos se manejan como Indumentaria por simplicidad
+        
                 Producto p = new Indumentaria(
                         rs.getInt("id"),
                         rs.getString("nombre"),
@@ -34,3 +34,4 @@ public class ProductoDAO {
         return productos;
     }
 }
+
