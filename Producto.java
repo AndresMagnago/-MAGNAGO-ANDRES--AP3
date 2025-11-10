@@ -15,7 +15,7 @@ public abstract class Producto {
         this.categoria = categoria;
     }
 
-    // Getters y Setters (encapsulamiento)
+    // Getters y Setters 
     public int getId() { return id; }
     public void setId(int id) { this.id = id; }
     public String getNombre() { return nombre; }
