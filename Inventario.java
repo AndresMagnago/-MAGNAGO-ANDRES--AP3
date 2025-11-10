@@ -80,7 +80,7 @@ public class Inventario {
         }
     }
 
-    // Actualizar stock (ejemplo CRUD update)
+    // Actualizar stock
     public void actualizarStock(int id, int nuevoStock) {
         String sql = "UPDATE productos SET stock = ? WHERE id = ?";
         try (PreparedStatement stmt = conn.prepareStatement(sql)) {
