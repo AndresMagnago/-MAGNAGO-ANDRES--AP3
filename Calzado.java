@@ -1,7 +1,7 @@
 package com.todosport;
 
 public class Calzado extends Producto {
-    private int numero;  // Atributo específico
+    private int numero;  
 
     public Calzado(int id, String nombre, double precio, int stock, String categoria, int numero) {
         super(id, nombre, precio, stock, categoria);
