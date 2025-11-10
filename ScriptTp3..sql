@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS productos (
     tipo VARCHAR(50)  -- e.g., 'Indumentaria' o 'Calzado'
 );
 
--- Insertar datos de ejemplo
+-- Insertar datos 
 INSERT INTO productos (nombre, precio, stock, categoria, tipo) VALUES
 ('Camiseta Deportiva', 25.99, 50, 'Ropa', 'Indumentaria'),
 ('Zapatillas Running', 89.99, 30, 'Calzado', 'Calzado');
